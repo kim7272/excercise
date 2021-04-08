@@ -1,12 +1,24 @@
 package activity;
 
-public class ActivityWithoutTrack {
-    public ActivityWithoutTrack(Object p0) {
-    }
+public class ActivityWithoutTrack implements  Activity {
 
+    private ActivityType activityType;
+
+    @Override
     public double getDistance() {
+        return 0.0;
     }
 
-    public short getType() {
+    @Override
+    public ActivityType getType() {
+        return activityType;
     }
+
+    public ActivityWithoutTrack(ActivityType activityType) {
+        this.activityType = activityType;
+    }
+
+
+
+
 }

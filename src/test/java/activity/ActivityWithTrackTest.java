@@ -11,7 +11,7 @@ public class ActivityWithTrackTest {
 
     Track track = new Track();
     Activity activityWithTrack = new ActivityWithTrack(
-            track, ActivityType.RUNNING
+           ActivityType.RUNNING, track
     );
 
     @Test

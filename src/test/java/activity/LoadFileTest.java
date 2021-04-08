@@ -1,4 +1,4 @@
-package activity;
+/* package activity;
 
 import org.junit.jupiter.api.Test;
 
@@ -23,3 +23,5 @@ public class LoadFileTest {
 
     }
 }
+
+ */

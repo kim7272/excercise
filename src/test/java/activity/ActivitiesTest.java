@@ -14,9 +14,9 @@ public class ActivitiesTest {
     Track track = new Track();
 
     Activities activities = new Activities(Arrays.asList(
-            new ActivityWithTrack(track, ActivityType.RUNNING),
+            new ActivityWithTrack(ActivityType.RUNNING, track),
             new ActivityWithoutTrack(ActivityType.BASKETBALL),
-            new ActivityWithTrack(track, ActivityType.RUNNING)));
+            new ActivityWithTrack(ActivityType.RUNNING, track)));
 
     @Test
     public void testNumberOfWithTrack() {
